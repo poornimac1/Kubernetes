@@ -2,3 +2,26 @@ Hypervisor or virtual machine monitor(VMM) is a program used to run and manage o
 
 It allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
 
+There are two main hypervisor types, referred to as “Type 1” (or “bare metal”) and “Type 2” (or “hosted”). A type 1 hypervisor acts like a lightweight operating system and runs directly on the host’s hardware, while a type 2 hypervisor runs as a software layer on an operating system, like other computer programs.
+
+The most commonly deployed type of hypervisor is the type 1 or bare-metal hypervisor, where virtualization software is installed directly on the hardware where the operating system is normally installed. Because bare-metal hypervisors are isolated from the attack-prone operating system, they are extremely secure. In addition, they generally perform better and more efficiently than hosted hypervisors. For these reasons, most enterprise companies choose bare-metal hypervisors for data center computing needs.
+
+Hardware acceleration technology can create and manage virtual resources faster by boosting processing speed for both bare-metal and hosted hypervisors. A type of hardware accelerator known as a virtual Dedicated Graphics Accelerator (vDGA) takes care of sending and refreshing high-end 3-D graphics. This frees up the main system for other tasks and greatly increases the display speed of images. For industries such as oil and gas exploration, where there is a need to quickly visualize complex data, this technology can be very useful.
+
+Containers and hypervisors are both involved in making applications faster and more efficient, but they achieve this in different ways. 
+
+Hypervisors:
+
+1. Allow an operating system to run independently from the underlying hardware through the use of virtual machines.
+2. Share virtual computing, storage and memory resources.
+3. Can run multiple operating systems on top of one server (bare-metal hypervisor) or installed on top of one standard operating system and isolated from it (hosted hypervisor).
+
+Containers: 
+
+1. Allow applications to run independently of an operating system. 
+2. Can run on any operating system—all they need is a container engine to run. 
+3. Are extremely portable since in a container, an application has everything it needs to run. 
+
+Resources:
+https://www.vmware.com/topics/glossary/content/hypervisor.html
+

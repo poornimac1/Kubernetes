@@ -23,4 +23,5 @@ Tutorial on what is Kubernetes and different commands to try. If you like this, 
 
 
 
-<img src="https://github.com/poornimac1/Kubernetes/assets/9400009/9a98ec17-a4c0-46b4-b323-b22c781e3a76" width="" height="200">
+<img width="479" alt="image" src="https://github.com/poornimac1/Kubernetes/assets/9400009/146c10b8-8b77-431a-844d-dcaca6f0606a">
+

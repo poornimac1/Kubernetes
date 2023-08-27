@@ -1,2 +1,4 @@
-Hypervisor is a program used to run and manage one or more virtual machines on a computer.
+Hypervisor or virtual machine monitor(VMM) is a program used to run and manage one or more virtual machines on a computer. 
+
+It allows one host computer to support multiple guest VMs by virtually sharing its resources, such as memory and processing.
 

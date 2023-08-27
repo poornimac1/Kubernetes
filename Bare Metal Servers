@@ -1,0 +1,20 @@
+A bare metal server is a physical computer specifically designed to run dedicated services without any interruptions for extended periods. It is highly stable, durable, and reliable.
+
+Bare metal servers are a single-tenant environment, meaning that a single server’s physical resources may not be shared between two or more tenants. 
+
+Because of this physical separation, bare metal servers are free of the “noisy neighbor” effect that haunts virtual environments. One significant benefit of this isolation is performance predictability. Thanks to this, bare metal servers feature the most stable environment, making it perfect for processing large volumes of data.
+
+Other significant benefits include direct access to the server and the ability to leverage all underlying hardware architectures. Let’s explain the latter. If you provision a virtual machine (VM), you get a guest OS sitting on top of a hypervisor sitting on top of physical hardware. As a user, you would only have access to the guest OS and the management interface used to create the VM. You would not have direct access to physical hardware.
+
+On the other hand, you have full access to the underlying architecture with a bare metal server. The benefit here is that you have more options available when creating your own platform to host a service or application. This leads us to another critical point.
+
+Bare metal servers do not require the use of several layers of software, unlike the virtual environment, which has at least one additional layer of software – a Type 1 hypervisor. 
+
+This means there is one less layer of software between you and your physical hardware in everyday use. Hence you can expect better performance. It must be noted that bare metal tenants can create virtual machines on top of bare metal in a fashion similar to a virtualized environment.
+
+Bare metal is like having your own house; you can customize it any way you want. You don’t have to deal with noisy neighbors. 
+
+In contrast, a public cloud multi-tenant virtualized environment is like renting an apartment. The neighbors’ kids drive you crazy with their yelling, and there’s not much you can do about that strange smell in the hallway.
+
+Resources: 
+https://phoenixnap.com/blog/what-is-bare-metal-server#What%20Is%20Bare%20Metal%20Server? 
